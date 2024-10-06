@@ -1,0 +1,12 @@
+C:\Users\ran70\source\repos\freefiles\freefiles\bin\Debug\freefiles.exe.config
+C:\Users\ran70\source\repos\freefiles\freefiles\bin\Debug\freefiles.exe
+C:\Users\ran70\source\repos\freefiles\freefiles\bin\Debug\freefiles.pdb
+C:\Users\ran70\source\repos\freefiles\freefiles\obj\Debug\freefiles.csprojAssemblyReference.cache
+C:\Users\ran70\source\repos\freefiles\freefiles\obj\Debug\freefiles.csproj.CoreCompileInputs.cache
+C:\Users\ran70\source\repos\freefiles\freefiles\obj\Debug\freefiles.exe
+C:\Users\ran70\source\repos\freefiles\freefiles\obj\Debug\freefiles.pdb
+C:\Users\ran70\source\repos\freefiles\freefiles\bin\Debug\freefiles.exe.manifest
+C:\Users\ran70\source\repos\freefiles\freefiles\bin\Debug\freefiles.application
+C:\Users\ran70\source\repos\freefiles\freefiles\obj\Debug\freefiles.exe.manifest
+C:\Users\ran70\source\repos\freefiles\freefiles\obj\Debug\freefiles.application
+C:\Users\ran70\source\repos\freefiles\freefiles\obj\Debug\freefiles.TrustInfo.xml

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="freefiles.exe" version="1.0.0.0" publicKeyToken="a2c836123e2be32c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Paomedia-Small-N-Flat-Key.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="freefiles" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="freefiles.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="freefiles.exe" size="174048">
+      <assemblyIdentity name="freefiles" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pZq2vbA46j8hIEApGL3lgOfE/NomX1FB37hvUlaSBbg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="freefiles.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Paomedia-Small-N-Flat-Key.ico" size="167425">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Mgr7z/p9f7m1VSIr+KX/huN2VWz4F5s7Y7vm5Gl0RYY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-5A4S9A0\ran70" issuerKeyHash="7405e9b1642a83c083c7849531f8e1abbb035379" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>r0eXGddTrDm/hXk5qnbXesnrpe384ybgVukW9RUtDPs=</DigestValue></Reference></SignedInfo><SignatureValue>qcWsxS59c3NdrcHbaco4UX8+qhN4YDkEsKCqXINkfOZPoEX0F28gSX97/1E1Z446S0hQkPoArSlTjCRj5cv6b64qR1svB+YVIL6hJR9eVmpHld5QpTVrgKW7Y0SY98CPTLUriE2LErr9vhwwmNcHWs4gS1/n1twMxj6WEh3j9jA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vSwbmQi48+vnakQ/RM6yxGqrhts+xfa0TntZ2O+Ln9M7UBsw8hs3dW7JReNUmAumTN6l8t7Ysxc/R2jrPNf+nDxc+rtx9hORrIZMpA2kVq8NHs9QNSVZD01OQBzFJN0E9YnahJYy8YgwPSDYLpyKo0fH4Kvt94HANlc36isE/1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fb0c2d15f516e956e026e3fceda5ebc97ad776aa397985bf39ac53d7199747af" Description="" Url=""><as:assemblyIdentity name="freefiles.exe" version="1.0.0.0" publicKeyToken="a2c836123e2be32c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5A4S9A0\ran70</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2C0/15EXbSLKJ5QiA0UVLOF8dEeXRGRHewP88kp09ps=</DigestValue></Reference></SignedInfo><SignatureValue>iyBf9uDxTCMv+caiirSh3OqtHJj2Ukodn/2qjNaFLFRO1f/C8dpesGR8Sh39z592Bx65jUEkDzJuGllgaj50sz8M1d0FCiNybIm13GuyiNfq4TwfXmmikzXtK2YfJ3LeJ+D0aPk2GgdQwF+8aDKXIqSpiiu8nfDmH6mQQ3HuwO8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vSwbmQi48+vnakQ/RM6yxGqrhts+xfa0TntZ2O+Ln9M7UBsw8hs3dW7JReNUmAumTN6l8t7Ysxc/R2jrPNf+nDxc+rtx9hORrIZMpA2kVq8NHs9QNSVZD01OQBzFJN0E9YnahJYy8YgwPSDYLpyKo0fH4Kvt94HANlc36isE/1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQVrC++37FeZlC9TXlusKAnjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUAQQA0AFMAOQBBADAAXAByAGEAbgA3ADAwHhcNMTgwNjMwMTMwOTI5WhcNMTkwNjMwMTkwOTI5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUAQQA0AFMAOQBBADAAXAByAGEAbgA3ADAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL0sG5kIuPPr52pEP0TOssRqq4bbPsX2tE57Wdjvi5/TO1AbMPIbN3VuyUXjVJgLpkzepfLe2LMXP0do6zzX/pw8XPq7cfYTkayGTKQNpFavDR7PUDUlWQ9NTkAcxSTdBPWJ2oSWMvGIMD0g2C6ciqNHx+Cr7feBwDZXN+orBP9VAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAIKW+sXSyKZelJ4dFhfJQM8UTO4FE/ZC2mh6jnTb5BWOvxSn6hj2TlymvYxjOz0r+MYb3XL5+lyYAAUZS819zVptIBK5i/fJahI1kPMjpl12ZmElsiZIBSlFiT8ZniBv9BRSxngOr/gn+vgomlVv5mNOIWY4iBPdJ4YLS7wAHj7w=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
